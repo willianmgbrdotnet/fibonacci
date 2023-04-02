@@ -9,9 +9,9 @@ namespace Fibonacci
         static void Main(string[] args)
         {
             int quantidNumeros = 100;
-            int numA = 0;
-            int numB = 1;
-            int numC;
+            ulong numA = 0;
+            ulong numB = 1;
+            ulong numC;
 
             var sequencFibo = numA.ToString() + ", " + numB.ToString();
             
